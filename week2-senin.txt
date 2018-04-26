@@ -1,0 +1,43 @@
+1.) Newton Second Law
+	pseudocode:
+		1. OBTAIN "massa benda" with 600kg
+		2. OBTAIN "percepatan benda" with 2m/s2
+		3. OBTAIN "resultan gaya" without any value
+		4. CALCULATE "massa benda" times "percepatan benda"
+		5. SET "resultan gaya" with calculation result
+		6. DISPLAY "resultan gaya"
+
+2.) Tahun Kabisat
+	pseudocode:
+		1. READ AND SAVE "Year"
+		2. OBTAIN "result"
+		3. CALCULATE "Year" mod 4
+		4. SET "result" with calculating result
+		2. IF "result" <> 0
+		    	THEN 
+		    		DISPLAY "Bukan Tahun Kabisat"
+		    	ELSE IF "Year" mod 100 <> 0
+		    	THEN 
+		    		DISPLAY "Tahun Kabisat"
+		    	ELSE IF "Year" mod 400 = 0
+		    	THEN 
+		    		DISPLAY "Tahun Kabisat"
+		    	ELSE DISPLAY "Bukan Tahun Kabisat"
+		    END IF
+
+3.) LAUNDRY DAY
+	pseudocode:
+		1. OBTAIN "Pakaian" with 0
+		2. WHILE "Pakaian" <20
+		   ADD "Pakaian" by 1
+		   END WHILE
+		3. DISPLAY "Nyalakan Mesin Cuci"
+
+4.) PERIKSA KUKU
+	pseudocode:
+		1. OBTAIN "kuku" with 1
+		2. WHILE "kuku" <41
+		   IF "kuku" = panjang
+		   		THEN DISPLAY "Anak nakal! Potong kukunya ya"
+		   		ELSE DISPLAY "Anak pintar"
+		   
