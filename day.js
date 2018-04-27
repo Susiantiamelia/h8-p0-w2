@@ -1,6 +1,6 @@
-var tanggal = 00
-var bulan = 00
-var tahun = 0000
+var tanggal;
+var bulan;
+var tahun;
 
 switch(bulan){
 	case 1:
