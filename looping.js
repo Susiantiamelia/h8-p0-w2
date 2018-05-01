@@ -17,7 +17,7 @@ while(count > 2) {
 // Looping menggunakan For
 console.log('LOOPING PERTAMA')
 
-for(var angka=1; angka < 21; angka++){
+for(var angka=0; angka < 21; angka++){
   console.log(angka + ' - I love coding')
 }
 
