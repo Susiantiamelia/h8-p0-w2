@@ -1,6 +1,7 @@
 // Tugas 1
 function shoutOut(){
-	console.log('Halo Function')
+	 var a = 'Halo Function'
+	return a;
 }
 
 console.log(shoutOut())
